@@ -1,0 +1,9 @@
+.hero {
+  background-color: gray;
+  /* min-height: 80vh;
+  min-height: 100vh; */
+
+  height: 100%;
+  scroll-snap-type: y mandatory;
+
+}

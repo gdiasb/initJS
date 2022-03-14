@@ -1,0 +1,35 @@
+:root {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: var(--font-size);
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  /* transition: all 3s ease-in-out; */
+}
+
+header {
+  border: 2.5px solid rgb(185, 81, 81);
+  max-height: 20vh;
+
+  display: grid;
+  grid-template-areas:
+    "menu . theme"
+    "navbar navbar navbar";
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: grid;
+    grid-template-areas: "navbar theme";
+    grid-template-columns: 11fr 1fr;
+  }
+}
