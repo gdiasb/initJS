@@ -1,8 +1,9 @@
 .hero {
-  background-color: gray;
+  /* background-color: gray; */
   height: 100%;
-
-
-  scroll-snap-type: y mandatory;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
