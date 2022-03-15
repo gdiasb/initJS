@@ -12,9 +12,10 @@
   /* transition: all 3s ease-in-out; */
 }
 
+
 header {
   border: 2.5px solid rgb(185, 81, 81);
-  max-height: 20vh;
+  /* max-height: 20vh; */
 
   display: grid;
   grid-template-areas:

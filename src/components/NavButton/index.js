@@ -1,5 +1,9 @@
 function NavButton(icon, id) {
-  window.handleClick = (buttonPressed) => {
+
+  // O uso do window torna a função disponível no contexto global e para evitar a sobreposição de nomes se define em qual escopo (NavButton) a função handleClick se refere
+  window.NavButton = {};
+  
+  window.NavButton.handleClick = (buttonPressed) => {
     function navIsOpen() {
       const navMenu = document.getElementById("navlist");
       navMenu.classList.toggle("navlist-open");
@@ -25,7 +29,7 @@ function NavButton(icon, id) {
   };
 
   return `
-    <button class=${id} id=${id} onclick='handleClick(this)'>
+    <button class=${id} id=${id} onclick='window.NavButton.handleClick(this)'>
       <i class='bi ${icon}' ></i>
     </button>`;
 }
