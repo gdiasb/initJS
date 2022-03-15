@@ -10,7 +10,7 @@ body.light {
   
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: all 2.5s ease-in-out;
+  transition: background-color 2.5s ease-in-out;
 }
 
 body.dark {
@@ -19,5 +19,5 @@ body.dark {
 
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: all 2.5s ease-in-out;
+  transition: background-color 2.5s ease-in-out;
 }
