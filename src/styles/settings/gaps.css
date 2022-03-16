@@ -1,5 +1,7 @@
 :root {
-  --w-gap-medium: 3rem;
+  --w-gap-medium: 3vw;
   
-  --h-gap-medium: 3rem;
+  --h-gap-small: 1.5vh;
+  --h-gap-medium: 3vh;
+  --h-gap-large: 6vh;
 }
