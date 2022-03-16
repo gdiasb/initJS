@@ -4,5 +4,6 @@
 
 @import './generic/reset.css';
 @import './settings/colors.css';
-@import './settings/sizes.css';
+@import './settings/fonts.css';
+@import './settings/gaps.css';
 @import './elements/base.css';

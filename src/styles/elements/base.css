@@ -12,10 +12,16 @@
   /* transition: all 3s ease-in-out; */
 }
 
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
 
 header {
   border: 2.5px solid rgb(185, 81, 81);
-  /* max-height: 20vh; */
 
   display: grid;
   grid-template-areas:
