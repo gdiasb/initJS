@@ -1,5 +1,5 @@
 import "./style.css";
-
+import avatar from '../../assets/images/avatar.png'
 
 function Hero() {
   return `
@@ -12,7 +12,7 @@ function Hero() {
       <h2>Working with ReactJS, but, always learning something new.</h2>
     </div>
     <div class="content-box-avatar">
-      <img src='./src/assets/images/avatar.png' alt='Self-avatar (Memoji)' />    
+      <img src=${avatar} alt='Self-avatar (Memoji)' />    
     </div>
     <div class="content-box-socials">
       <i class="fa-brands fa-twitter"></i>
