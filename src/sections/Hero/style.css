@@ -56,10 +56,16 @@
     height: auto;
     margin: auto;
     font-size: medium;
+
+    cursor: pointer;
     
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .content-box-socials i:hover {
+    color: #91cabb;
   }
 
 }
