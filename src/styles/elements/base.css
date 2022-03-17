@@ -23,9 +23,11 @@ h2 {
 }
 
 header {
-  border: 2.5px solid rgb(185, 81, 81);
+  /* border: 2.5px solid rgb(185, 81, 81); */
 
   display: grid;
+  margin-top: 2vh;
+  align-content: center;
   grid-template-areas:
     "menu . theme"
     "navbar navbar navbar";
@@ -37,6 +39,9 @@ button {
 
 @media screen and (min-width: 600px) {
   header {
+
+    margin-top: 0;
+    min-height: 10vh;
     display: grid;
     grid-template-areas: "navbar theme";
     grid-template-columns: 11fr 1fr;

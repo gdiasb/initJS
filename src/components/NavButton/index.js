@@ -15,11 +15,11 @@ function NavButton(icon, id) {
       let colorStatus = document.body.className;
 
       if (colorStatus === "dark") {
-        iconToggle.classList.replace("bi-sun", "bi-moon");
+        iconToggle.classList.replace("fa-sun", "fa-moon");
         document.body.classList.replace("dark", "light");
         console.log(document.getElementsByTagName("body")[0].classList);
       } else {
-        iconToggle.classList.replace("bi-moon", "bi-sun");
+        iconToggle.classList.replace("fa-moon", "fa-sun");
         document.body.classList.replace("light", "dark");
         console.log(document.getElementsByTagName("body")[0].classList);
       }
@@ -30,7 +30,7 @@ function NavButton(icon, id) {
 
   return `
     <button class=${id} id=${id} onclick='window.NavButton.handleClick(this)'>
-      <i class='bi ${icon}' ></i>
+      <i class='fa ${icon}' style="font-size: large;"></i>
     </button>`;
 }
 

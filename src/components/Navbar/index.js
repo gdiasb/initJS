@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
   return `
-  ${NavButton("bi-list", "navbutton__menu")}
+  ${NavButton("fa-bars", "navbutton__menu")}
   <nav class='navlist' id='navlist'>
     <ul>
       <li>Home</li>
@@ -13,8 +13,8 @@ function Navbar() {
   </nav>
   ${
     window.matchMedia("(prefers-color-scheme: light)").matches
-      ? NavButton("bi-moon", "navbutton__theme")
-      : NavButton("bi-sun", "navbutton__theme")
+      ? NavButton("fa-moon", "navbutton__theme")
+      : NavButton("fa-sun", "navbutton__theme")
   }
 
      `;
