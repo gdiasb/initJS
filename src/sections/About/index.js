@@ -2,7 +2,7 @@ import './style.css'
 
 function About() {
   return `
-  <section class="about">
+  <section class="about" id="about">
     <p>About</p>
   </section>`
 }

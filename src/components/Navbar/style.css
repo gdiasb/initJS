@@ -17,6 +17,10 @@
   list-style-type: none;
 }
 
+a:link {
+  color: var(--text-color);
+}
+
 a:hover {
   color: var(--text-gradient);
 }

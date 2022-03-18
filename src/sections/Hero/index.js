@@ -21,8 +21,12 @@ function Hero() {
       <a href="https://github.com/gdiasb">
         <i class="fa-brands fa-github-alt"></i>
       </a>
-      <i class="fa-solid fa-paper-plane"></i>
-      <i class="fa-solid fa-envelope"></i>
+      <a href="https://t.me/diasgabriela">
+        <i class="fa-solid fa-paper-plane"></i>
+      </a>
+      <a href="malito:gabrieladias@eq.ufrj.br">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
     </div>
   </section>
   `;
