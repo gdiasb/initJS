@@ -1,6 +1,7 @@
 #app {
   height: 100vh;
   overflow-y: scroll;
+  scrollbar-width: thin;
   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }

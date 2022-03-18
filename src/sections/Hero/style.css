@@ -64,8 +64,13 @@
     justify-content: space-evenly;
   }
 
+
   .content-box-socials i:hover {
+    position: relative;
+    left: 2px;
+    top: 2px;
     color: #91cabb;
+    text-shadow: 2px 2px 3px black;
   }
 
 }

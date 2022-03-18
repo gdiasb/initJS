@@ -1,6 +1,6 @@
 function NavButton(icon, id) {
 
-  // O uso do window torna a função disponível no contexto global e para evitar a sobreposição de nomes se define em qual escopo (NavButton) a função handleClick se refere
+  // O uso do window torna a função disponível no contexto global e para evitar a sobreposição de nomes se define em qual escopo (NavButton) a função handleClick se refere.
   window.NavButton = {};
   
   window.NavButton.handleClick = (buttonPressed) => {
@@ -30,7 +30,7 @@ function NavButton(icon, id) {
 
   return `
     <button class=${id} id=${id} onclick='window.NavButton.handleClick(this)'>
-      <i class='fa ${icon}' style="font-size: large;"></i>
+      <i class='fa ${icon}' style="font-size: x-large;"></i>
     </button>`;
 }
 
