@@ -16,7 +16,8 @@
 
 .content-box-text h1 {
   margin-bottom: var(--h-gap-small);
-  background: -webkit-linear-gradient(#91cabb, #99f2c8);
+
+  background: -webkit-linear-gradient(var(--text-gradient), var(--text-gradient-2));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -33,12 +34,16 @@
   font-size: xx-large;
 }
 
+.content-box-socials a {
+  font-size: xx-large;
+}
+
 @media screen and (min-width: 600px) {
   .hero {
     display: grid;
-    grid-template-areas: 
-    "text avatar"
-    "socials socials";
+    grid-template-areas:
+      'text avatar'
+      'socials socials';
   }
 
   .content-box-avatar {
@@ -46,9 +51,9 @@
     display: contents;
   }
   .content-box-avatar img {
-    width: 80%;
+    width: 75%;
     height: auto;
- }
+  }
 
   .content-box-socials {
     grid-area: socials;
@@ -58,19 +63,17 @@
     font-size: medium;
 
     cursor: pointer;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
 
-
   .content-box-socials i:hover {
     position: relative;
     left: 2px;
     top: 2px;
-    color: #91cabb;
-    text-shadow: 2px 2px 3px black;
+    color: var(--icon-color);
+    text-shadow: 2px 2px 2px black;
   }
-
 }

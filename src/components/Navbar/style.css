@@ -1,6 +1,5 @@
 .navlist {
   grid-area: navbar;
-  /* border: 2px solid magenta; */
 
   height: 0px;
   opacity: 0;
@@ -18,6 +17,10 @@
   list-style-type: none;
 }
 
+a:hover {
+  color: var(--text-gradient);
+}
+
 .navlist-open {
   height: 20vh;
   opacity: 1;
@@ -27,14 +30,12 @@
 .navbutton__menu {
   grid-area: menu;
   text-align: center;
-  border: 2px solid cadetblue;
+  /* border: 2px solid cadetblue; */
 }
 
 .navbutton__theme {
   text-align: center;
   grid-area: theme;
-
-  /* border: 2px solid green; */
 }
 
 @media screen and (min-width: 600px) {

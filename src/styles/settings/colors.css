@@ -2,12 +2,24 @@
   --dark-color: #101419;
   --light-color: #eee5e9;
 
+  --light-green: #91cabb;
+  --light-green-2: #99f2c8;
+
+  --dark-green: #518f65;
+  --dark-green-2: #61ad7a;
+
+  
 }
 
 body.light {
   --bg-color: var(--light-color);
-  --text-color: var(--dark-color);
+
+  --text-color: var(--dark-color);  
+  --text-gradient: var(--dark-green);
+  --text-gradient-2: var(--dark-green-2);
   
+  --icon-color: var(--dark-green);
+
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 2.5s ease-in-out;
@@ -15,7 +27,12 @@ body.light {
 
 body.dark {
   --bg-color: var(--dark-color);
+
   --text-color: var(--light-color);
+  --text-gradient: var(--light-green);
+  --text-gradient-2: var(--light-green-2);
+
+  --icon-color: var(--light-green);
 
   background-color: var(--bg-color);
   color: var(--text-color);

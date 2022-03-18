@@ -1,6 +1,5 @@
 :root {
-
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: var(--font-size);
 
@@ -8,8 +7,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-
-  /* transition: all 3s ease-in-out; */
 }
 
 h1 {
@@ -21,7 +18,9 @@ h2 {
   font-size: var(--font-size-h2);
 }
 
-li {font-size: var(--font-size-li);}
+li {
+  font-size: var(--font-size-li);
+}
 
 header {
   /* border: 2.5px solid rgb(185, 81, 81); */
@@ -30,8 +29,8 @@ header {
   margin-top: 2vh;
   align-content: center;
   grid-template-areas:
-    "menu . theme"
-    "navbar navbar navbar";
+    'menu . theme'
+    'navbar navbar navbar';
 }
 
 button {
@@ -40,15 +39,10 @@ button {
 
 @media screen and (min-width: 600px) {
   header {
-
     margin-top: 0;
     min-height: 10vh;
     display: grid;
-    grid-template-areas: "navbar theme";
+    grid-template-areas: 'navbar theme';
     grid-template-columns: 11fr 1fr;
   }
-}
-
-@media screen and (min-width: 1200px) {
-  
 }
