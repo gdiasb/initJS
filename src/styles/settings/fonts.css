@@ -1,8 +1,17 @@
 :root {
-  --font-size: 24px;
-  --font-size-h1: 2.618rem;
-  --font-size-h1: 3.375rem;
-  --font-size-h2: 1.618rem;
-  /* --font-size-h2: 2.25rem; */
-  --font-size-h3: 1.5rem;
+  --font-size: 16px;
+
+  --font-size-h1: 3.1375rem;
+  --font-size-h2: 1.6rem;
+  --font-size-li: 1.5rem;
+
+  
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --font-size-h1: 4rem;
+    --font-size-h2: 2rem;
+  }
+  
 }

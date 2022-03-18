@@ -15,12 +15,13 @@
 h1 {
   font-size: var(--font-size-h1);
   font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
 }
 
 h2 {
   font-size: var(--font-size-h2);
 }
+
+li {font-size: var(--font-size-li);}
 
 header {
   /* border: 2.5px solid rgb(185, 81, 81); */
@@ -46,4 +47,8 @@ button {
     grid-template-areas: "navbar theme";
     grid-template-columns: 11fr 1fr;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  
 }
