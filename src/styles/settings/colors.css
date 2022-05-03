@@ -13,16 +13,17 @@
 
 body.light {
   --bg-color: var(--light-color);
-
-  --text-color: var(--dark-color);  
+  --text-color: var(--dark-color);
   --text-gradient: var(--dark-green);
   --text-gradient-2: var(--dark-green-2);
-  
   --icon-color: var(--dark-green);
-
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 2.5s ease-in-out;
+  -webkit-transition: background-color 2.5s ease-in-out;
+  -moz-transition: background-color 2.5s ease-in-out;
+  -ms-transition: background-color 2.5s ease-in-out;
+  -o-transition: background-color 2.5s ease-in-out;
 }
 
 body.dark {

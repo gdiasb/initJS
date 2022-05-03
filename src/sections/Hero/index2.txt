@@ -1,0 +1,38 @@
+const Hero = () => {
+  return (
+    &lt;h1&gt;Hey, I'm Gabriela! &lt;br&gt; A web developer.&lt;/h1&gt;
+    &lt;h2&gt;Mastering React, but &lt;b&gt;always&lt;/b&gt; learning something new. &lt;/h2&gt;
+  )
+}
+
+export default Hero;
+
+
+import code
+from ast import Return 
+from random import randInt
+from time import sleep
+
+jogadas = 0;
+valor_sorteado = randint(0,5)
+
+print(...)
+print(...)
+print(...)
+
+valor_chutado = int(input('Em que número pensei?'))
+
+print('Processando...')
+
+while valor_chutado != valor_sorteado:
+  jogadas += 1
+  valor_chutado = int('Errou! Chute novamente um valor: ')
+  sleep(3)
+
+print('Você acertou! Parabéns!')
+print(i'Você acertou com {jogadas+1} jogadas!')
+
+
+
+while jogador != computador: 
+  jogadas += 1
